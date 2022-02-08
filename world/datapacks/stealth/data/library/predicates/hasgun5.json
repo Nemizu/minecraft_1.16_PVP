@@ -1,0 +1,26 @@
+[
+
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:crossbow",
+              "nbt": "{display:{Name:'{\"text\":\"ショットガン\"}'},Charged: 0b}",
+              "enchantments": [{
+                "enchantment": "minecraft:multishot",
+                "levels": 1
+              }]
+            }
+          }
+        }
+    }, 
+    {
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "job": 5
+    }
+  }
+]

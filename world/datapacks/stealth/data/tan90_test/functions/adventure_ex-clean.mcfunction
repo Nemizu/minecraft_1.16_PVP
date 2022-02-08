@@ -1,0 +1,15 @@
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.0 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.1 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.2 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.3 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.4 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.5 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.6 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.7 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.8 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.9 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.10 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.11 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.12 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.13 air
+execute as @e[type=minecraft:mule,tag=EX_mule] if score @p[scores={job=9}] id1 = @s id2 runreplaceitem entity @s horse.14 air

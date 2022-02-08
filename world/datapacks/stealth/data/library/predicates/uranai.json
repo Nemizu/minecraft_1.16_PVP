@@ -1,0 +1,23 @@
+[
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "flags": {
+            "is_sneaking": true
+          }
+        }
+    },
+    {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "mainhand": {
+              "item": "minecraft:bone",
+              "nbt": "{display:{Name:'{\"text\":\"占いの骨\"}',Lore:['{\"text\":\"なんか見える\"}']}}"
+            }
+          }
+        }
+      }
+]

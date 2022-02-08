@@ -1,0 +1,1 @@
+function sk_fc:adventure_fc/adventure

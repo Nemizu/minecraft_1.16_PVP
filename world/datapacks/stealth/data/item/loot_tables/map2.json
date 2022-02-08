@@ -1,0 +1,586 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":10
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":10
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 1,
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":10
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 1,
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":10
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 3,
+                  "name": "Armor",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": 0.3,
+                  "name": "ResistKnock",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"修行用胴着\\\"\",Lore:[\"\\\"30％の確率でノックバック無効\\\"\"],color:13397248}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "weight": 1,
+          "functions":[
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"ジャンピングブーツ\\\"\",Lore:[\"\\\"高くジャンプできる\\\"\"],color:16318251},Tags:[\"boot\"]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls":{
+        "min":0,
+        "max":1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 4,
+          "quality": 2,
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 3,
+                  "name": "Armor",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": 5,
+                  "name": "Armor_toughness",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"クロコダイル製防具\\\"\",Lore:[\"\\\"防具強度とは？\\\"\"],color:606752}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:golden_leggings",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 5,
+                  "name": "Armor",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "amount": 2,
+                  "name": "Max_health",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"体力のズボン\\\"\",Lore:[\"\\\"体力アップ！\\\"\"]}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name": "minecraft:golden_chestplate",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 6,
+                  "name": "Armor",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "amount": 2,
+                  "name": "Max_health",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"体力のプレート\\\"\",Lore:[\"\\\"体力アップ！\\\"\"]}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:chainmail_leggings",
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":30
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:chainmail_chestplate",
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":30
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:diamond_leggings",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 6,
+                  "name": "Armor",
+                  "slot": "legs"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "amount": 2,
+                  "name": "Max_health",
+                  "slot": "legs"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"改造されたダイヤモンドのレギンス\\\"\",Lore:[\"\\\"GG！\\\"\"]}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:diamond_chestplate",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 7,
+                  "name": "Armor",
+                  "slot": "chest"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "amount": 2,
+                  "name": "Max_health",
+                  "slot": "chest"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"改造されたダイヤモンドのプレート\\\"\",Lore:[\"\\\"GG！\\\"\"]}}"
+
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls":{
+        "min":0,
+        "max":1
+      },
+      "entries": [
+        {
+          "type": "item",
+          "weight": 4,
+          "quality": 2,
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                  {
+                    "attribute": "generic.armor",
+                    "operation": "addition",
+                    "amount": 1,
+                    "name": "Armor",
+                    "slot": "head"
+                  },
+                  {
+                    "attribute": "generic.max_health",
+                    "operation": "addition",
+                    "amount": 4,
+                    "name": "Max_health",
+                    "slot": "head"
+                  }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"スポンジ帽子\\\"\",Lore:[\"\\\"なんか他の防具より体力増えて草\\\"\"],color:16318251}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name": "minecraft:golden_helmet",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 2,
+                  "name": "Armor",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "generic.max_health",
+                  "operation": "addition",
+                  "amount": 2,
+                  "name": "Max_health",
+                  "slot": "head"
+                }
+              ]
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{Name:\"\\\"体力のヘルメット\\\"\",Lore:[\"\\\"体力アップ！\\\"\"]}}"
+
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "quality": 2,
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function":"minecraft:enchant_with_levels",
+              "levels":30
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 3,
+                  "name": "Armor",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": 1,
+                  "name": "Armor_toughness",
+                  "slot": "head"
+                },
+                {
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": 0.1,
+                  "name": "Knockback_resistance",
+                  "slot": "head"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:netherite_helmet",
+          "functions": [
+            {
+              "function":"minecraft:set_attributes",
+              "modifiers": [
+                {
+                  "attribute": "generic.armor",
+                  "operation": "addition",
+                  "amount": 3,
+                  "name": "Armor",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "generic.armor_toughness",
+                  "operation": "addition",
+                  "amount": 1,
+                  "name": "Armor_toughness",
+                  "slot": "feet"
+                },
+                {
+                  "attribute": "generic.knockback_resistance",
+                  "operation": "addition",
+                  "amount": 0.1,
+                  "name": "Knockback_resistance",
+                  "slot": "feet"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "quality": 1,
+          "name": "minecraft:totem_of_undying"
+        }
+      ]
+    },
+    {
+      "rolls":{
+        "min":1,
+        "max":3
+      },
+      "bonus_rolls":2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 2,
+          "name":"minecraft:apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name":"minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 2,
+          "name":"minecraft:dried_kelp",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 1,
+          "quality": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Effects:[{EffectId:23b,EffectDuration:60}]}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "minecraft:suspicious_stew",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Effects:[{EffectId:24b,EffectDuration:100}]}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls":{
+        "min":2,
+        "max":5
+      },
+      "bonus_rolls":2,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 6,
+          "name":"minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:10b,Amplifier:1b,Duration:320}],CustomPotionColor:4317596,display:{Name:\"\\\"リジェネ\\\"\",Lore:[\"\\\"おそい\\\"\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 8,
+          "name":"minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:0b,Duration:1}],CustomPotionColor:16749805,display:{Name:\"\\\"回復\\\"\",Lore:[\"\\\"はやい\\\"\"]}}"
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "weight": 1,
+          "name":"minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:26b,Amplifier:1b,Duration:600}],CustomPotionColor:16514816,display:{Name:\"\\\"幸運（飲むタイプ）\\\"\",Lore:[\"\\\"運がよくなる\\\"\"]}}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls":1,
+      "bonus_rolls":1,
+      "entries": [
+        {
+          "type": "item",
+          "weight": 1,
+          "name":"minecraft:bone",
+          "functions": [
+                 {
+                  "function": "set_count",
+                  "count": {
+                    "min": 1,
+                    "max": 3
+                  }
+                 },
+                 {
+                  "function": "set_nbt",
+                  "tag": "{display:{Name:'{\"text\":\"占いの骨\"}',Lore:['{\"text\":\"なんか見える\"}']}}" 
+                 }
+          ]
+        }
+      ]
+    }
+  ]
+}

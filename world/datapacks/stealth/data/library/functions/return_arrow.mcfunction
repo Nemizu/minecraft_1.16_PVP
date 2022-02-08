@@ -1,0 +1,1 @@
+#scoreboard players add @a[scores={use_bow=1..},tag=BowUser] use_bow 1
